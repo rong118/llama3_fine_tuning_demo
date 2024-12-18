@@ -15,9 +15,9 @@ device = torch.device("cuda" if torch.cuda.is_available() else "mps" if torch.ba
 models_dir = './model_1B'
 dataset_file = './dataset/huanhuan.json'
 
-model_path = f"/Users/rongli/Desktop/venv_llama3/llama3-ft/model_1B"
-checkpoint_dir = f"/Users/rongli/Desktop/venv_llama3/llama3-ft/model_1B/checkpoint/1B"
-lora_dir = f"/Users/rongli/Desktop/venv_llama3/llama3-ft/model_1B/lora/1B"
+model_path = f"./model_1B"
+checkpoint_dir = f"./model_1B/checkpoint/1B"
+lora_dir = f"./model_1B/lora/1B"
 torch_dtype = torch.bfloat16
 
 # 定义一个函数，用于获取模型和tokenizer
